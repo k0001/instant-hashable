@@ -36,7 +36,7 @@ class GHashable a where
 
 instance GHashable Z where
   ghashWithSalt' _ _ = error
-    "Generics.Instant.Functions.DeepSeq.GHashable Z ghashWithSalt' - impossible"
+    "Generics.Instant.Functions.Hashable.GHashable Z ghashWithSalt' - impossible"
 
 instance GHashable U where
   ghashWithSalt' s U = hashWithSalt s ()
