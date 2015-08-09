@@ -6,6 +6,8 @@
 
 * Export 'GHashable' internals.
 
+* Relax dependencies.
+
 
 # Version 0.1.0.1
 
